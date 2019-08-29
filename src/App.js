@@ -16,36 +16,38 @@ function App() {
       <main>
         <header className = "navbar">
          <h2> William Wen </h2>
-         <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-78}
-            duration={500}
-          >
-            Projects
-          </Link>
-          <Link
-             activeClass="active"
-             to="about"
-             spy={true}
-             smooth={true}
-             offset={-30}
-             duration={500}
-           >
-            About
-          </Link>
-          <Link
-             activeClass="active"
-             to="home"
-             spy={true}
-             smooth={true}
-             offset={-78}
-             duration={500}
-           >
-            Home
-          </Link>
+          <div className='alignRight'>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-78}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-30}
+              duration={500}
+            >
+              About
+            </Link>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-78}
+              duration={500}
+            >
+              Home
+            </Link>
+          </div>
         </header>
 
         <div className = "body">
