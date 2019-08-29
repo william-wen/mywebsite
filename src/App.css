@@ -75,6 +75,11 @@
   margin: 0px 20px 0px 20px;
   cursor: pointer;
   color: white;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: rgb(92, 168, 248);
 }
 
 .about-page {
