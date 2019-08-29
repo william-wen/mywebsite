@@ -96,7 +96,7 @@ function App() {
 
                 <div style={{ padding: '12px 30px 30px 30px' }}>
                   <Row gutter={16}>
-                    <Col lg={8} xs={24} style={{marginTop: '18px', zIndex: '-1'}}>
+                    <Col lg={8} xs={24} style={{marginTop: '18px'}}>
                       <a href="https://github.com/william-wen/CanvasTO" target="_blank">
                         <Card
                           className = "card-size"
@@ -107,7 +107,7 @@ function App() {
                         </Card>
                       </a>
                     </Col>
-                    <Col lg={8} xs={24} style={{marginTop: '18px', zIndex: '-1'}}>
+                    <Col lg={8} xs={24} style={{marginTop: '18px'}}>
                       <a href="https://devpost.com/software/annoying-arduino-alarm-clock" target="_blank">
                         <Card
                           className = "card-size"
@@ -118,7 +118,7 @@ function App() {
                         </Card>
                       </a>
                     </Col>
-                    <Col lg={8} xs={24} style={{marginTop: '18px', zIndex: '-1'}}>
+                    <Col lg={8} xs={24} style={{marginTop: '18px'}}>
                       <a href="https://devpost.com/software/logistica-politica" target="_blank">
                         <Card
                           className = "card-size"
